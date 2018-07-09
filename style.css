@@ -1,0 +1,9 @@
+/* Styles go here */
+
+.disabled-ele{
+      pointer-events: none;
+}
+
+.enable-ele{
+     pointer-events: auto;
+}
