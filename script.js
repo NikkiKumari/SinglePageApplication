@@ -57,7 +57,6 @@ IONdemo.controller('loginController', function($scope) {
     var localData={};
     localData.userEmail = $scope.emailInput;
     localData.userPassword = Base64.encode($scope.passwordInput);
-    console.log("sdfsdfsdf",localData);
     localStorage.setItem("DemoUser",JSON.stringify(localData));
   }
 });
